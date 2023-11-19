@@ -8,9 +8,9 @@ In the previous version of chatgpt 4 normal, without turbo, the Odin language wa
 How to use chatgpt to program in Odin a Monte Carlo simulation of the GOOG stock closing price from a yahoo finance .csv file of 5 years period, from the beginning to last day of the file. So we can compare the simulated price with the real price. The trick was to ask chatgpt 4 turbo to read the overview manual of odin renamed as a overview.txt instead of overview.md and the renamed demo.txt instead of demo.odin, and then ask chatgpt to write it along several responses, and then I had to manually add the package main, and some imports, and the main function, that it lacked. I also had to manually add the line to remove the header line. And corrected little errors like ```i++ -> i += 1```. The result is really nice. This tells as the current state of chatgpt 4 turbo in respect to Odin, and is a really big step up from what it could do in chatgpt 4.
 
 ## The links for the files are
-* ```overview.md```, renamed as ```overview.txt```:
+* ```overview.md```, renamed as ```overview.txt```: <br>
   [https://github.com/odin-lang/odin-lang.org/blob/master/content/docs/overview.md](https://github.com/odin-lang/odin-lang.org/blob/master/content/docs/overview.md)
-* ```demo.odin```, renamed as ```demo.txt```:
+* ```demo.odin```, renamed as ```demo.txt```: <br>
   [https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)
 
 ## The question to chatgpt 4 turbo
