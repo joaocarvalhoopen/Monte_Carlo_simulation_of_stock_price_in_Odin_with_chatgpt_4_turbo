@@ -39,6 +39,10 @@ SummaryStats{mean = 130.972, median = 99.487, percentile_25 = 61.349, percentile
 GOOG price: 130.370
 ```
 
+## The current real problem that has to be resolved manually...
+Is that chatgpt didn't make any call to ```free() memory``` nor ```defer free()```.
+So they have to be made manually.
+
 ## License
 MIT Open Source License
 
